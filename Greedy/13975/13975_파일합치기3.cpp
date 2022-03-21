@@ -5,6 +5,7 @@ using namespace std;
 
 // 파일 크기를 오름차순으로 정렬한 후 앞에서 부터 합치면 됨.
 // 우선순위 큐 사용
+// 자료형 주의할 것. (long long)
 
 int main() {
 	int testCase;
