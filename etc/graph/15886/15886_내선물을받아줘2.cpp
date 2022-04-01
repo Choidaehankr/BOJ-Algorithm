@@ -9,6 +9,7 @@ char arr[MAX];
 
 string str;
 int ans = 0;
+
 void solution(int idx) {
     queue<int> q;
     q.push(idx);
@@ -32,7 +33,7 @@ void solution(int idx) {
 
 int main() {
     int n; cin >> n;
-    cin >> str;
+    cin >> str ;
     for(int i = 0; i < str.size(); i++) {
         arr[i] = str[i];
     }

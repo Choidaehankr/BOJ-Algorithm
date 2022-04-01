@@ -5,7 +5,7 @@ using namespace std;
 
 int V, E;
 
-typedef pair<int, pair<int, int>> ii;
+typedef pair<int, pair<int, int> > ii;
 int parent[10001];
 vector<ii> v;  // 가중치, 간선 정보
 
@@ -33,7 +33,7 @@ int main() {
 	for (int i = 0; i < E; i++) {
 		int forth, back, val;
 		cin >> forth >> back >> val;
-		v.push_back({ val, {forth, back} });
+		v.push_back(make_pair(val, make_pair(forth, back)));
 	}
 	sort(v.begin(), v.end());  // 오름차순 정렬
 

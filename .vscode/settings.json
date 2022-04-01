@@ -1,6 +1,7 @@
 {
-    "code-runner.runInTerminal": true,
+    "code-runner.runInTerminal": false,
     "code-runner.executorMap" : {
         "cpp": "cd $dir && clang++ -std=c++17 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
-    }
+    },
+    "editor.wordWrap": "on"
 }
