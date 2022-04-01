@@ -3,5 +3,8 @@
     "code-runner.executorMap" : {
         "cpp": "cd $dir && clang++ -std=c++17 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
     },
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "files.associations": {
+        "string": "cpp"
+    }
 }
