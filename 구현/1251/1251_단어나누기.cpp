@@ -22,7 +22,7 @@ int main() {
         string forth, middle, last;
         for(int j = 1; j < str.size()-i; j++) {
             // substr()로 forth, middle, last에 str의 모든 경우의 수를 추출한 후 reverse()로 뒤집음
-            forth = str.substr(0, i);  
+            forth = str.substr(0, i);  // abcde forth = a
             middle = str.substr(i, j);
             last = str.substr(i+j);
             reverse(forth.begin(), forth.end()); 

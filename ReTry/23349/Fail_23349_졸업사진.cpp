@@ -2,10 +2,11 @@
 #include <string>
 #include <vector>
 #include <set>
-using namespace std;
-
+#include <algorithm>
 #include <map>
 #include <set>
+using namespace std;
+
 int timeTable[11][101];
 int main() {
 	int N;
@@ -25,7 +26,7 @@ int main() {
 		}
 		else {
 			s.insert(name);
-			m.insert({place, idx++});
+			m[place] = idx++;
 		}
 		cin >> start >> end;
 		for (int i = start; i < end; i++) {

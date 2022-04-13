@@ -10,8 +10,7 @@ vector<pair<int, pair<int, int> > > v;
 void init() {
 	// check 배열의 모든 수를 true로 초기화
 	fill(check, check + 1000, true);
-	// 답이 될 수 없는 수 (123 ~ 987, 0이 없고 중복된 수가 없는 3자리 수)를 false로 초기화+
-
+	// 답이 될 수 없는 수 (123 ~ 987, 0이 없고 중복된 수가 없는 3자리 수)를 false로 초기화
 	for (int i = 123; i <= 987; i++) {
 		string str = to_string(i);
 		if (str[0] == str[1] || str[1] == str[2] || str[2] == str[0]) check[i] = false;
