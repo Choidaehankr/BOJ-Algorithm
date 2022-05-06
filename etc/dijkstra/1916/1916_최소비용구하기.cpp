@@ -8,7 +8,7 @@ using namespace std;
 
 int N, M, from, goal;
 int dist[MAX];
-vector<pair<int, int>> v[MAX];
+vector<pair<int, int> > v[MAX];
 
 void solution(int idx) {
 	priority_queue<pair<int, int>, vector<pair<int, int> >, greater<pair<int, int> > > pq;
