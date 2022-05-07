@@ -29,7 +29,7 @@ bool bfs(int x, int y, vector<string> v, int cnt) {
             int ny = y + dy[i];
             if(nx < 0 || nx >= 5 || ny < 0 || ny >= 5 || visited[nx][ny] || v[nx][ny] == 'X') continue;
             if(v[nx][ny] == 'P' && cnt <= 2) return true;
-            q.push(make_pair(make_pair(nx, ny), cnt+1));
+            // q.push(make_pair(make_pair(nx, ny), cnt+1));
             visited[nx][ny] = true;
         }
     }

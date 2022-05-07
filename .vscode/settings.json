@@ -48,6 +48,7 @@
         "variant": "cpp",
         "__functional_base": "cpp",
         "complex": "cpp",
-        "new": "cpp"
+        "new": "cpp",
+        "iosfwd": "cpp"
     }
 }

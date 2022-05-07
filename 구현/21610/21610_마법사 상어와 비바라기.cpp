@@ -9,7 +9,7 @@ int dx[8] = {0, -1, -1, -1, 0, 1, 1, 1 };  // 8방향 이동
 int dy[8] = {-1, -1, 0, 1, 1, 1, 0, -1 };
 int N, M;
 
-vector<pair<int, int>> v;
+vector<pair<int, int> > v;
 
 void move_cloud(int dir, int num) {  // 참고..
 	for (int i = 0; i < v.size(); i++) {
