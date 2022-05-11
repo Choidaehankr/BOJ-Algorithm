@@ -11,7 +11,7 @@ long long arr[101][2];
 int N, K;
 int main() {
 	cin >> N >> K;
-	vector<pair<int, int>> v;  // {Weight, Value}
+	vector<pair<int, int> > v;  // {Weight, Value}
 	for (int i = 1; i <= N; i++) {
 		cin >> arr[i][WEIGHT] >> arr[i][VALUE];
 	}
