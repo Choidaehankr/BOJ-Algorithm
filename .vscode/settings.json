@@ -49,6 +49,7 @@
         "__functional_base": "cpp",
         "complex": "cpp",
         "new": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "xstring": "cpp"
     }
 }
