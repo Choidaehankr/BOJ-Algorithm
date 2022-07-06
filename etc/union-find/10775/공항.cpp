@@ -37,6 +37,7 @@ int main() {
 		cin >> num;
 		int parent = find(num);  // num의 부모: 다음에 도킹할 게이트 번호
 		if (parent != 0) {
+			// 1 <= g1 <= G 이기 때문에 더 작은수와 merge 해줌
 			merge(parent, parent - 1);
 			answer++;
 		}
